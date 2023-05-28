@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@500&family=Poppins:wght@300&display=swap");
+
 body {
   margin: 0;
 }
@@ -8,14 +10,14 @@ body {
 .Typewriter {
   margin-bottom: 15px;
   span {
-    font-family: var(--montserrat);
+    font-family: "Montserrat";
   }
 }
 
 p {
-  font-family: var(--lato);
+  font-family: "Lato";
 }
 
 button {
-  font-family: var(--poppins);
+  font-family: "Poppins";
 }
