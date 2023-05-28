@@ -1,6 +1,6 @@
-"use client";
+import Title from "./components/Title/Title";
 import styles from "./page.module.scss";
-import Typewriter from "typewriter-effect";
+
 import { lato, montserrat, poppins } from "@/fonts/fonts";
 
 export default function Home() {
@@ -10,22 +10,15 @@ export default function Home() {
         <source src="/family.mp4" type="video/mp4" />
       </video>
       <div className={styles.contentContainer}>
-        <div className={styles.title}>
-          <Typewriter
-            options={{
-              strings: ["#PARENTOSFERA"],
-              autoStart: true,
-              loop: true,
-              wrapperClassName: styles.typewriter
-            }}
-          />
+        <div className={montserrat.className}>
+          <Title words={["#PARENTOSFERA"]} />
         </div>
-        <p>
+        <p className={lato.className}>
           Se chegou até aqui é porque a parentalidade é importante para si.
           Inscreva-se agora e receba contéudo em primeira mão, teremos surpresas
           brevemente.
         </p>
-        <button>INSCRIÇÃO</button>
+        <button className={poppins.className}>INSCRIÇÃO</button>
       </div>
     </main>
   );
