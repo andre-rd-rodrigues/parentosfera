@@ -17,6 +17,11 @@
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-simple-typewriter": "^5.0.1",
+    "typescript": "5.0.4",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
