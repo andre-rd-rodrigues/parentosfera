@@ -10,7 +10,7 @@ export default function Home() {
         <source src="/family.mp4" type="video/mp4" />
       </video>
       <div className={styles.contentContainer}>
-        <div className={montserrat.className}>
+        <div className={`${styles.title} ${montserrat.className}`}>
           <Title words={["#PARENTOSFERA"]} />
         </div>
         <p className={lato.className}>
