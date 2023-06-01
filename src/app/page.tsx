@@ -16,7 +16,7 @@ export default function Home() {
         <p className={lato.className}>
           Se chegaste até aqui é porque a parentalidade é importante para ti.
           Carrega no botão e vamos formar esta comunidade juntos, teremos
-          surpresas brevemente.
+          novidades em breve.
         </p>
         <button className={poppins.className}>
           <a href="https://forms.gle/P597vVmPawUfQL6b7">fazer parte</a>
