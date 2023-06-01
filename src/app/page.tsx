@@ -15,7 +15,6 @@ export default function Home() {
         </div>
         <p className={lato.className}>
           Se chegaste até aqui é porque a parentalidade é importante para ti.
-          <br />
           Carrega no botão e vamos formar esta comunidade juntos, teremos
           surpresas brevemente.
         </p>
