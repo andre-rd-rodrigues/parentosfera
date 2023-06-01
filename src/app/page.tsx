@@ -6,7 +6,7 @@ import { lato, montserrat, poppins } from "@/fonts/fonts";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <video autoPlay loop muted poster="/images/initial.png">
+      <video autoPlay preload="none" loop muted poster="/images/initial.png">
         <source src="/family.mp4" type="video/mp4" />
       </video>
       <div className={styles.contentContainer}>
@@ -14,11 +14,14 @@ export default function Home() {
           <Title words={["#PARENTOSFERA"]} />
         </div>
         <p className={lato.className}>
-          Se chegou até aqui é porque a parentalidade é importante para si.
-          Inscreva-se agora e receba contéudo em primeira mão, teremos surpresas
-          brevemente.
+          Se chegaste até aqui é porque a parentalidade é importante para ti.
+          <br />
+          Carrega no botão e vamos formar esta comunidade juntos, teremos
+          surpresas brevemente.
         </p>
-        <button className={poppins.className}>INSCRIÇÃO</button>
+        <button className={poppins.className}>
+          <a href="https://forms.gle/P597vVmPawUfQL6b7">fazer parte</a>
+        </button>
       </div>
     </main>
   );

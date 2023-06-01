@@ -30,6 +30,16 @@
     position: relative;
     z-index: 1;
 
+    a {
+      text-transform: uppercase;
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
     &:before {
       content: "";
       position: absolute;
